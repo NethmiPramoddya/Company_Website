@@ -1,0 +1,50 @@
+/*section who we are*/
+
+.p-1 { padding: 1.5rem; }
+.p-2 { padding: 2rem; }
+.p-3 { padding: 3rem; }
+
+
+.list{
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+.list li{
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+
+
+#who{
+    display: flex;
+}
+
+#who div{
+    flex: 1;
+}
+
+#who .who-img{
+    background: #333 url(../img/people.jpg) no-repeat center center/cover;
+}
+
+/*Clients*/
+#client .items{
+    display: flex;
+}
+
+#client .items img{
+    display: block;
+    margin: auto;
+    width: 80%;
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --border: 0.1rem solid rgba(255, 255, 255, .3);
+}
+
+.content{
+    font-size: 2px;
+}
+
+section{
+    padding: 2rem 2rem;
+}
+
+.heading{
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading span{
+    color: #93cb52;
+    text-transform: uppercase;
+}
+
+
+section{
+    padding: 2rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 2rem; 
+    font-size: 1.2rem;
+    color: #fff;
+    background: #93cb52;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    letter-spacing: 0.2rem;
+    background: #7ab436;
+}
+
+.blogs .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+}
+
+.blogs .box-container .box{
+    border: var(--border);
+}
+
+.blogs .box-container .box .image{
+    height: 25rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.blogs .box-container .box .image img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.blogs .box-container .box:hover .image img{
+    transform: scale(1.2);
+}
+
+.blogs .box-container .box .content{
+    padding: 2rem;
+}
+
+.blogs .box-container .box .content .title{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.blogs .box-container .box .content .title:hover{
+    color: #93cb52;
+}
+
+.blogs .box-container .box .content span{
+    color: #93cb52;
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+.blogs .box-container .box .content p{
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #333;
+    padding: 1rem 0;
+}
